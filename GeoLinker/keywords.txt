@@ -1,0 +1,111 @@
+
+/* 
+ * GeoLinker Library
+ * Copyright (C) 2025 Jobit Joseph, Semicon Media Pvt Ltd (Circuit Digest)
+ * Author: Jobit Joseph
+ * Project: GeoLinker Cloud API Library
+ *
+ * Licensed under the MIT License
+ * You may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at:
+ * https://opensource.org/license/mit/
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software (the "Software") and associated documentation files, to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, subject to the following additional conditions:
+
+ * 1. All copies or substantial portions must retain:  
+ *    - The original copyright notice  
+ *    - A prominent statement crediting the original author/creator  
+
+ * 2. Modified versions must:  
+ *    - Clearly mark the changes as their own  
+ *    - Preserve all original credit notices
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+GeoLinker	KEYWORD1
+ParseResult	KEYWORD1
+GpsData	KEYWORD1
+NetworkBackendType	KEYWORD1
+GeoLinkerStatus	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+setApiKey	KEYWORD2
+setDeviceID	KEYWORD2
+setUpdateInterval_seconds	KEYWORD2
+setDebugLevel	KEYWORD2
+enableOfflineStorage	KEYWORD2
+enableAutoReconnect	KEYWORD2
+setPayloads	KEYWORD2
+setBatteryLevel	KEYWORD2
+setTimeOffset	KEYWORD2
+setOfflineBufferLimit	KEYWORD2
+setNetworkMode	KEYWORD2
+setWiFiCredentials	KEYWORD2
+connectToWiFi	KEYWORD2
+setModemCredentials	KEYWORD2
+beginModem	KEYWORD2
+setModemTimeouts	KEYWORD2
+getModemNetworkStatus	KEYWORD2
+getModemGprsStatus	KEYWORD2
+loop	KEYWORD2
+parseNMEA	KEYWORD2
+getCoordinates	KEYWORD2
+sendData	KEYWORD2
+storeOfflineData	KEYWORD2
+sendOfflineData	KEYWORD2
+isWiFiConnected	KEYWORD2
+isValidGps	KEYWORD2
+handleWiFiReconnect	KEYWORD2
+modemPowerCycle	KEYWORD2
+modemReset	KEYWORD2
+modemInit	KEYWORD2
+checkNetworkRegistration	KEYWORD2
+checkGprsContext	KEYWORD2
+modemHttpPost	KEYWORD2
+modemSendAT	KEYWORD2
+modemWaitForResponse	KEYWORD2
+decodeModemResponse	KEYWORD2
+debugPrint	KEYWORD2
+debugPrintNoNewline	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+GEOLINKER_WIFI	LITERAL1
+GEOLINKER_CELLULAR	LITERAL1
+DEBUG_NONE	LITERAL1
+DEBUG_BASIC	LITERAL1
+DEBUG_VERBOSE	LITERAL1
+PARSE_SUCCESS	LITERAL1
+PARSE_NO_DATA	LITERAL1
+PARSE_INVALID_STATUS	LITERAL1
+PARSE_INVALID_FORMAT	LITERAL1
+STATUS_OK	LITERAL1
+STATUS_SENT	LITERAL1
+STATUS_GPS_ERROR	LITERAL1
+STATUS_NETWORK_ERROR	LITERAL1
+STATUS_BAD_REQUEST_ERROR	LITERAL1
+STATUS_PARSE_ERROR	LITERAL1
+STATUS_CELLULAR_NOT_REGISTERED	LITERAL1
+STATUS_CELLULAR_CTX_ERROR	LITERAL1
+STATUS_CELLULAR_DATA_ERROR	LITERAL1
+STATUS_CELLULAR_TIMEOUT	LITERAL1
+STATUS_INTERNAL_SERVER_ERROR	LITERAL1

@@ -1,0 +1,62 @@
+{
+  "name": "GeoLinker",
+  "version": "1.0.2",
+  "description": "A comprehensive library for GPS tracking and cloud data transmission with WiFi/GSM support. Features offline storage, automatic reconnection, and multi-platform compatibility.",
+  "keywords": "gps, geolocation, wifi, gsm, iot, esp32, esp8266, pico, rp2040, uno r4, sim800l",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Circuit-Digest/GeoLinker.git"
+  },
+  "authors": [
+    {
+      "name": "Jobit Joseph",
+      "email": "jobitjoseph1@gmail.com",
+      "url": "https://github.com/jobitjoseph",
+      "maintainer": true
+    },
+    {
+      "name": "Circuit Digest",
+      "email": "contact@circuitdigest.com",
+      "url": "https://www.circuitdigest.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://www.circuitdigest.cloud/geolinker",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32",
+    "renesas",
+    "rp2040",
+    "atmelavr"
+  ],
+  "dependencies": [
+    {
+      "name": "ArduinoJson",
+      "version": ">=7.0.0"
+    },
+    {
+      "name": "WiFiS3",
+      "platforms": ["renesas"],
+      "version": ">=1.0.0"
+    },
+    {
+      "name": "WiFiEspAT",
+      "platforms": ["*"],
+      "version": ">=1.0.0"
+    },
+    {
+      "name": "SoftwareSerial",
+      "platforms": ["atmelavr"],
+      "version": ">=1.0.0"
+    }
+  ],
+  "export": {
+    "exclude": [
+      "tests",
+      "examples",
+      "docs"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+MIT License
+
+GeoLinker Library
+Copyright (C) 2025 Jobit Joseph, Semicon Media Pvt Ltd (Circuit Digest)
+Author: Jobit Joseph
+Project: GeoLinker Cloud API Library
+
+Licensed under the MIT License
+You may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at:
+https://opensource.org/license/mit/
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software (the "Software") and associated documentation files, to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following additional conditions:
+
+All copies or substantial portions must retain:
+
+  - The original copyright notice
+
+  - A prominent statement crediting the original author/creator
+
+Modified versions must:
+
+  - Clearly mark the changes as their own
+
+  - Preserve all original credit notices
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
