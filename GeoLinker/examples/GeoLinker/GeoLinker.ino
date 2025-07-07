@@ -97,7 +97,7 @@ const char* gsmPass = nullptr;        // APN password if required
 // ==================================================================
 //                   GeoLinker CONFIGURATION
 // ==================================================================
-const char* apiKey = "spX0eAiaU2Mf";  // Your GeoLinker API key
+const char* apiKey = "xxxxxx";  // Your GeoLinker API key
 const char* deviceID = "GeoLinker_tracker"; // Unique device identifier
 const uint16_t updateInterval = 10;   // Data upload interval (seconds)
 const bool enableOfflineStorage = true; // Enable offline data storage
